@@ -1,0 +1,34 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.container {
+	max-width: 940px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+.shop {
+	padding: 80px 0;
+	background-color: grey;
+}
+.shop__grid {
+	display: grid;
+	column-gap: 20px;
+	row-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.box {
+	height: 300px;
+	background-color: red;
+}
+.box__img {
+	width: 100%;
+	height: 200px;
+}
+.box__img img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	object-position: center;
+}
